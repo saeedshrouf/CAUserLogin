@@ -106,4 +106,9 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         accounts.put(user.getName(), user);
         save();
     }
+
+    @Override
+    public Object getCurrentUser() {
+        return null;
+    }
 }
